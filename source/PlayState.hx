@@ -8404,254 +8404,101 @@ class PlayState extends MusicBeatState
 					{
 						case 3705:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('dave', 'what');
 							switchDad('bambi-new', dad.getPosition(), true, false);
 						case 4512:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('dave', 'happy');
 							switchDad('bambi-shredder', dad.getPosition(), true, false);
 						case 6016:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('dave', 'happy');
 							switchDad('tristan', dad.getPosition(), true, false);
 						case 7040:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('dave', 'happy');
 							switchDad('bob', dad.getPosition(), true, false);
-							if (!hasTriggeredDumbshit)
-							{
-								throwThatBitchInThere('bob', 'tristan');
-							}
 						case 7552:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('dave', 'what');
 							switchDad('hellbob', dad.getPosition(), true, false);
 						case 7933:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('dave', 'what');
 							switchDad('staten', dad.getPosition(), true, false);
-							if (!hasTriggeredDumbshit)
-							{
-								throwThatBitchInThere('staten', 'hellbob');
-							}
 						case 10816:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('bambi', 'yummyCornLol');
 							switchDad('dave-cool', dad.getPosition(), true, false);
 							switchBF("bf-cool", boyfriend.getPosition());
-							if (!hasTriggeredDumbshit)
-							{
-								throwThatBitchInThere('dave-cool', 'staten');
-							}
 						case 11073:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('bambi', 'yummyCornLol');
-							splitathonExpression('dave', 'happy');
 							switchDad('staten', dad.getPosition(), true, false);
 							switchBF("bf", boyfriend.getPosition());
-							if (!hasTriggeredDumbshit)
-							{
-								throwThatBitchInThere('staten', 'dave-cool');
-							}
 						case 11437:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('dave', 'happy');
 							switchDad('hellbob', dad.getPosition(), true, false);
-							if (!hasTriggeredDumbshit)
-							{
-								throwThatBitchInThere('hellbob', 'staten');
-							}
 						case 11518:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('dave', 'happy');
 							switchDad('bob', dad.getPosition(), true, false);
 						case 12160:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('dave', 'happy');
 							switchDad('staten', dad.getPosition(), true, false);
-							if (!hasTriggeredDumbshit)
-							{
-								throwThatBitchInThere('staten', 'bob');
-							}
 						case 13375:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('bambi', 'yummyCornLol');
-							splitathonExpression('dave', 'happy');
 							switchDad('ron', dad.getPosition(), true, false);
-							if (!hasTriggeredDumbshit)
-							{
-								throwThatBitchInThere('ron', 'staten');
-							}
 						case 15820:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('bambi', 'yummyCornLol');
-							splitathonExpression('dave', 'happy');
 							switchDad('pewdiepie', dad.getPosition(), true, false);
-							if (!hasTriggeredDumbshit)
-							{
-								throwThatBitchInThere('pewdiepie', 'ron');
-							}
 						case 17505:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('bambi', 'yummyCornLol');
-							splitathonExpression('dave', 'happy');
 							switchDad('baby', dad.getPosition(), true, false);
-							if (!hasTriggeredDumbshit)
-							{
-								throwThatBitchInThere('baby', 'pewdiepie');
-							}
 						case 18779:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('bambi', 'yummyCornLol');
-							splitathonExpression('dave', 'happy');
 							switchDad('running_goblin', dad.getPosition(), true, false);
-							if (!hasTriggeredDumbshit)
-							{
-								throwThatBitchInThere('running_goblin', 'baby');
-							}
 						case 20288:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('bambi', 'yummyCornLol');
-							splitathonExpression('dave', 'happy');
 							switchDad('fishy', dad.getPosition(), true, false);
-							if (!hasTriggeredDumbshit)
-							{
-								throwThatBitchInThere('fishy', 'running_goblin');
-							}
 						case 23775:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('bambi', 'yummyCornLol');
-							splitathonExpression('dave', 'happy');
 							switchDad('gorbini', dad.getPosition(), true, false);
-							if (!hasTriggeredDumbshit)
-							{
-								throwThatBitchInThere('gorbini', 'fishy');
-							}
 						case 25577:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('bambi', 'yummyCornLol');
-							splitathonExpression('dave', 'happy');
 							switchDad('boss', dad.getPosition(), true, false);
-							if (!hasTriggeredDumbshit)
-							{
-								throwThatBitchInThere('boss', 'gorbini');
-							}
 						case 25577:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('bambi', 'yummyCornLol');
-							splitathonExpression('dave', 'happy');
 							switchDad('ron', dad.getPosition(), true, false);
-							if (!hasTriggeredDumbshit)
-							{
-								throwThatBitchInThere('ron', 'boss');
-							}
 						case 25983:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('bambi', 'yummyCornLol');
-							splitathonExpression('dave', 'happy');
 							switchDad('boss', dad.getPosition(), true, false);
-							if (!hasTriggeredDumbshit)
-							{
-								throwThatBitchInThere('boss', 'ron');
-							}
 						case 26607:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('bambi', 'yummyCornLol');
-							splitathonExpression('dave', 'happy');
 							switchDad('ron', dad.getPosition(), true, false);
-							if (!hasTriggeredDumbshit)
-							{
-								throwThatBitchInThere('ron', 'boss');
-							}
 						case 26607:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('bambi', 'yummyCornLol');
-							splitathonExpression('dave', 'happy');
 							switchDad('little-man', dad.getPosition(), true, false);
-							if (!hasTriggeredDumbshit)
-							{
-								throwThatBitchInThere('little-man', 'ron');
-							}
 						case 27023:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
 							splitathonExpression('bambi', 'yummyCornLol');
 							splitathonExpression('dave', 'happy');
 							switchDad('ron', dad.getPosition(), true, false);
-							if (!hasTriggeredDumbshit)
-							{
-								throwThatBitchInThere('ron', 'little-man');
-							}
 						case 27343:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('bambi', 'yummyCornLol');
-							splitathonExpression('dave', 'happy');
 							switchDad('bob', dad.getPosition(), true, false);
-							if (!hasTriggeredDumbshit)
-							{
-								throwThatBitchInThere('bob', 'ron');
-							}
 						case 27343:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('bambi', 'yummyCornLol');
-							splitathonExpression('dave', 'happy');
 							switchDad('boss', dad.getPosition(), true, false);
-							if (!hasTriggeredDumbshit)
-							{
-								throwThatBitchInThere('boss', 'bob');
-							}
 						case 27648:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('bambi', 'yummyCornLol');
-							splitathonExpression('dave', 'happy');
 							switchDad('bob', dad.getPosition(), true, false);
-							if (!hasTriggeredDumbshit)
-							{
-								throwThatBitchInThere('bob', 'boss');
-							}
 						case 27696:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('bambi', 'yummyCornLol');
-							splitathonExpression('dave', 'happy');
 							switchDad('boss', dad.getPosition(), true, false);
-							if (!hasTriggeredDumbshit)
-							{
-								throwThatBitchInThere('boss', 'bob');
-							}
 						case 28160:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('bambi', 'yummyCornLol');
-							splitathonExpression('dave', 'happy');
 							switchDad('bob', dad.getPosition(), true, false);
-							if (!hasTriggeredDumbshit)
-							{
-								throwThatBitchInThere('bob', 'boss');
-							}
 						case 28200:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('bambi', 'yummyCornLol');
-							splitathonExpression('dave', 'happy');
 							switchDad('boss', dad.getPosition(), true, false);
-							if (!hasTriggeredDumbshit)
-							{
-								throwThatBitchInThere('boss', 'bob');
-							}
 						case 28240:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('bambi', 'yummyCornLol');
-							splitathonExpression('dave', 'happy');
 							switchDad('bob', dad.getPosition(), true, false);
-							if (!hasTriggeredDumbshit)
-							{
-								throwThatBitchInThere('bob', 'boss');
-							}
 						case 28437:
 							FlxG.camera.flash(FlxColor.WHITE, 1);
-							splitathonExpression('bambi', 'yummyCornLol');
 							switchDad('dave-splitathon', dad.getPosition(), true, false);
-							if (!hasTriggeredDumbshit)
-							{
-								throwThatBitchInThere('dave-splitathon', 'bob');
-							}
 						case 31120:
 							subtitleManager.addSubtitle(LanguageManager.getTextString('splitathon_sub1'), 0.02, 0.6);
 						case 31127:
