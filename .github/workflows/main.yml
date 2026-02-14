@@ -32,8 +32,8 @@ jobs:
 
       - name: Install Libraries
         run: |
-          haxelib git hxcpp
-          haxelib git lime
+          haxelib install hxcpp
+          haxelib install lime
           haxelib install openfl 9.2.2
           haxelib install flixel 5.2.2
           haxelib install flixel-tools 1.5.1
@@ -48,7 +48,7 @@ jobs:
           haxelib install actuate
           haxelib install hxCodec 2.5.1
           haxelib install hscript
-          haxelib git lime https://github.com/mcagabe19-stuff/lime
+          haxelib install lime
       - name: Compile (Windows)
         if: startsWith(matrix.os, 'windows')
         run: haxelib run lime build windows -D officialBuild
