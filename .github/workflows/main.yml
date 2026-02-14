@@ -37,6 +37,7 @@ jobs:
           haxelib install lime
           haxelib install openfl
           haxelib install flixel
+          haxelib install hscript
           haxelib install flixel-tools
           haxelib install flixel-ui
           haxelib install flixel-addons
@@ -74,6 +75,7 @@ jobs:
           haxelib install lime
           haxelib install openfl
           haxelib install flixel
+          haxelib install hscript
           haxelib install flixel-tools
           haxelib install flixel-ui
           haxelib install flixel-addons
@@ -112,6 +114,7 @@ jobs:
           haxelib install lime
           haxelib install openfl
           haxelib install flixel
+          haxelib install hscript
           haxelib install flixel-tools
           haxelib install flixel-ui
           haxelib install flixel-addons
