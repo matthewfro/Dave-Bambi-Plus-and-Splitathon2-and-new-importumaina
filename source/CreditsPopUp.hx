@@ -39,7 +39,7 @@ class CreditsPopUp extends FlxSpriteGroup
 			case 'warmup' | 'house' | 'insanity' | 'polygonized' | 'bonus-song' | 'blocked' | 'corn-theft' | 'maze' | 'indignancy' |  'splitathon' | 'shredder' | 'greetings' |
 				'interdimensional' | 'cheating' | 'escape-from-california' | 'five-nights' | 'kabunga' | 'secret' | 'unfairness' | 'rano' | 'master' | 'house-2.5' | 'insanity-2.5' |
 				'polygonized-2.5' | 'blocked-2.5' | 'corn-theft-2.5' | 'maze-2.5' | 'vs-dave-thanksgiving' |'bonus-song-2.5' | 'old-house' | 'old-insanity' | 'furiosity' | 'old-blocked' |
-				'old-maze' | 'old-corn-theft' | 'beta-maze' | 'old-splitathon' | 'roots'| 'threedimensional' | 'second-tristan-song' | 'secret' | 'bf-ugh' | 'secret-mod-leak' | 'oppression':
+				'old-maze' | 'old-corn-theft' | 'beta-maze' | 'old-splitathon' | 'roots'| 'threedimensional' | 'second-tristan-song' | 'secret' | 'bf-ugh' | 'secret-mod-leak' | 'oppression' |  'splitathon-2':
 				songCreator = 'MoldyGH';
 			case 'exploitation':
 				songCreator = 'Oxygen';
@@ -157,6 +157,9 @@ class CreditsPopUp extends FlxSpriteGroup
 				headingPath = {path: 'songHeadings/interdimensionalHeading', antiAliasing: false, iconOffset: 0};
 			case 'doge-vs-bambi':
 				headingPath = {path: 'songHeadings/bambiHeading', antiAliasing: false, iconOffset: 0};
+			case 'splitathon-2':
+				headingPath = {path: 'songHeadings/daveHeading', antiAliasing: false, iconOffset: 0};
+
 		}
 		if (PlayState.recursedStaticWeek)
 		{
